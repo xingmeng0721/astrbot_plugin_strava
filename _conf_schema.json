@@ -1,0 +1,47 @@
+{
+  "client_id": {
+    "description": "Strava API Client ID",
+    "type": "string",
+    "default": ""
+  },
+  "client_secret": {
+    "description": "Strava API Client Secret",
+    "type": "string",
+    "default": ""
+  },
+  "refresh_token": {
+    "description": "Strava 初始 Refresh Token",
+    "type": "string",
+    "default": ""
+  },
+  "allowed_users": {
+    "description": "允许触发聊天的 QQ 号，多个用逗号分隔",
+    "type": "string",
+    "default": ""
+  },
+  "onelap_account": {
+    "description": "顽鹿运动 (Onelap) 账号",
+    "type": "string",
+    "default": ""
+  },
+  "onelap_password": {
+    "description": "顽鹿运动 (Onelap) 密码",
+    "type": "string",
+    "default": ""
+  },
+  "sync_count": {
+    "description": "每次自动同步最近的记录条数",
+    "type": "int",
+    "default": 1
+  },
+  "auto_sync_enable": {
+    "description": "是否开启后台自动拉取顽鹿运动记录",
+    "type": "bool",
+    "default": false
+  },
+  "auto_sync_interval": {
+    "description": "自动同步的时间间隔（单位：小时）",
+    "type": "int",
+    "default": 6
+  }
+}
