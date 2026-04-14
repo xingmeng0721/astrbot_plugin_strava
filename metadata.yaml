@@ -1,7 +1,7 @@
 name: astrbot_plugin_strava 
-display_name: Strava 
-desc: Strava & Onelap 顽鹿运动同步插件 
+display_name: Strava & Onelap 顽鹿运动同步插件 
+desc: 自动同步顽鹿（Onelap）里的运动记录到 Strava，拦截聊天 FIT 文件并同步进Strava 
 version: v1.0.2
-author: xingmeng 
+author: xingmeng0721 
 repo: https://github.com/xingmeng0721/astrbot_plugin_strava
 astrbot_version: ">=4.22.2"
